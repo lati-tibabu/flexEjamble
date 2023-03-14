@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainContainer{
+    background-image: linear-gradient(45deg, red, rgb(255, 0, 208));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    gap: 3px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.one{
+    background: white;
+    background: url('bg (1).jpg');
+    width: 100px;
+    height: 100px;
+    background-size: 100px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+.two{
+    background: white;
+    background: url('bg (2).jpg');
+    width: 100px;
+    height: 100px;
+    background-size: 100px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+
+}
+.three{
+    background: white;
+    background: url('bg (3).jpg');
+    width: 100px;
+    height: 100px;
+    background-size: 100px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+
+}
+.one:hover, .two:hover, .three:hover{
+    width: 101px;
+    transition: .6s;
+    z-index: 2;
+    background-size: 200px;
+    width: 200px;
+    height: 200px;
+    /* transform: rotateX(90deg); */
+}
+.one:hover.caption{
+    display: block;
+}
+.horizontal{
+    background: white;
+    width: 320px;
+    height: 2.5px;
+    border-radius: 5px 
+}
+div .title{
+    margin-top: 130px;
+    font-family: montserrat;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.caption{
+    font-family: montserrat;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+    font-size: 20px;
+    display: none;
+}
